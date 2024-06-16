@@ -19,6 +19,11 @@ K-Nearest Neighbors (KNN) is a supervised learning algorithm commonly used for c
 - nearestGroup: Determines the closest group to a given point based on the distance to group averages.
 
 ## Main Algorithm:
-1)Data points are assigned to the nearest group.
-2)Averages for each group are recalculated based on the current membership.
-3)Iteration continues until the average points of all groups converge (no significant change).
+- Data points are assigned to the nearest group.
+- Averages for each group are recalculated based on the current membership.
+- Iteration continues until the average points of all groups converge (no significant change).
+
+# Usage = 
+g++ -o knn knn_in_c++.cpp
+./knn
+
